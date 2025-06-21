@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Đăng ký</title>
+        <link rel="icon" href="https://lienquan.garena.vn/wp-content/uploads/2024/05/053654897539713c86a745376bc8e8125d25652cf33f01.jpg">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            body{
+                background: url(https://lienquan.garena.vn/wp-content/uploads/2024/05/a499a6da7fb904028574f60a3f38054a659519871acc91.jpg);
+                background-position:center;
+                background-repeat:no-repeat;
+                background-size:cover;
+                color:white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                text-shadow: 0 0 5px;
+            }
+            .nen{
+                backdrop-filter:blur(10px);
+                font-family: "Poppins",sans-serif;
+                border: 1px solid white;
+                border-radius: 15px;
+                box-shadow: 0 0 10px;
+                padding: 20px 20px 10px 20px;
+            }
+            h1{
+                text-align: center;
+                font-size: 50px;
+                margin: 20px;
+            }
+            .ten input{
+                width: auto;
+                height: 50px;
+                border: none;
+                border: 1px solid white;
+                border-radius: 25px;
+                padding: 20px;
+                margin: 20px 0 20px;
+                font-size: 16px;
+                background-color: transparent;
+                text-shadow: 0 0 5px white;
+                box-shadow: 0 0 10px white;
+            }
+            .tuoi{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .tdnmk input{
+                height: 50px;
+                width: 100%;
+                border: none;
+                border: 1px solid white;
+                border-radius: 25px;
+                padding: 20px 40px 20px 20px;
+                font-size: 16px;
+                color: white;
+                background-color: transparent;
+                text-shadow: 0 0 5px white;
+                box-shadow: 0 0 10px;
+                margin: 10px 0 10px;
+            }
+            input::placeholder{
+                color: white;}
+            i{
+                position: absolute;
+                transform: translate(-220%,160%);
+            }
+            .luu{
+                text-align: center;
+                margin: 20px;
+            }
+            .dangky button{
+                width: 100%;
+                height:50px;
+                border: none;
+                border: 1px solid white;
+                font-size: 16px;
+                color: white;
+                background-color: transparent;
+                border-radius: 25px;
+                box-shadow: 0 0 10px;
+                text-shadow: 0 0 5px;
+            }
+            .hotro{
+                text-align: center;
+                margin: 20px 0 30px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            .cre{
+                font-style:italic;
+                font-size: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nen">
+            <form>
+                <h1>Tạo tài khoản</h1>
+                <div class="ten">
+                    <input type="text" placeholder="Họ">
+                    <input type="text" placeholder="Tên">
+                </div>
+                <div class="tuoi">
+                    <label for="tuoi">Bạn đã: </label>
+                    <input type="radio" value="d18" name="tuoi">
+                    <label for="tuoi">Dưới 18 tuổi</label>
+                    <input type="radio" value="t18" name="tuoi">
+                    <label for="tuoi">Trên 18 tuổi</label>
+                </div>
+                <div class="tdnmk">
+                    <input type="email" placeholder="Email đăng ký">
+                    <i class='bx bx-envelope' ></i>
+                </div>
+                <div class="tdnmk">
+                    <input type="username" placeholder="Nhập tên đăng nhập">
+                    <i class='bx bxs-user' ></i><br>
+                    <input type="password" placeholder="Mật khẩu">
+                    <i class='bx bxs-lock-open-alt' ></i><br>
+                    <input type="password" placeholder="Nhập lại mật khẩu">
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <div class="luu">
+                    <p><input type="checkbox">Ghi nhớ tôi</p>
+                </div>
+                <div class="dangky">
+                    <button type="submit">Đăng ký ngay</button>
+                </div>
+                <div class="hotro">
+                    <p>Bạn không tạo được tài khoản. <a href="#">Liên hệ hỗ trợ</a></p>
+                </div>
+                <div class="cre">This page is created by Tan</div>
+            </form>
+        </div>
+    </body>
+</html>
